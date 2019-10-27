@@ -68,3 +68,22 @@ body {
     bottom: 0px;
     z-index: 1;
 }
+
+.modal {
+    .modal-header {
+        background: $background-dark;
+    }
+
+    .modal-title {
+        color: #FFFAF0;
+    }
+
+    .close {
+        color: #FFFAF0;
+    }
+    
+    .modal-body {
+        background: $background-pale;
+    }
+}
+
